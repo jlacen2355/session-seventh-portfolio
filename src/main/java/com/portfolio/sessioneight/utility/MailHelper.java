@@ -4,6 +4,7 @@ import org.springframework.mail.MailException;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 
+
 public class MailHelper {
 
     public static void sendTextEmail(String message, JavaMailSender javaMailSender, String subject, String... to){
@@ -20,4 +21,5 @@ public class MailHelper {
             exception.printStackTrace();
         }
     }
+
 }
