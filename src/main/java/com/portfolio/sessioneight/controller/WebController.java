@@ -86,7 +86,7 @@ public class WebController {
         stringBuilder.append("\n");
 
 
-        MailHelper.sendTextEmail(stringBuilder.toString(), javaMailSender);
+        MailHelper.sendTextEmail(stringBuilder.toString(), javaMailSender, "Email From your personal website", "jlacen2355@gmail.com");
 
 
 

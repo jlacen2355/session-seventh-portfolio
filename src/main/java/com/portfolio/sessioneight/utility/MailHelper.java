@@ -6,11 +6,11 @@ import org.springframework.mail.javamail.JavaMailSender;
 
 public class MailHelper {
 
-    public static void sendTextEmail(String message, JavaMailSender javaMailSender){
+    public static void sendTextEmail(String message, JavaMailSender javaMailSender, String subject, String... to){
         SimpleMailMessage simpleMailMessage = new SimpleMailMessage();
-        simpleMailMessage.setTo("jlacen2355@hotmail.com");
+        simpleMailMessage.setTo(to);
 
-        simpleMailMessage.setSubject("Email From your personal website");
+        simpleMailMessage.setSubject(subject);
 
         simpleMailMessage.setText(message);
 
