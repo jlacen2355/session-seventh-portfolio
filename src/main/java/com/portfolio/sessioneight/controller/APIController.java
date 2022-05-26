@@ -37,7 +37,6 @@ public class APIController {
         personalInfo.setEmail("jlacen2355@hotmail.com");
         personalInfo.setPhoneNumber("9729877383");
         personalInfo.setCvURL("https://drive.google.com/file/d/1yfxvFaETTGexFePvULQtopgQxSisrdBe/view?usp=sharing");
-        personalInfo.setAnother(new Another());
 
         return personalInfo;
     }
