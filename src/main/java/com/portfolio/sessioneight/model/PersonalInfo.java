@@ -12,6 +12,7 @@ public class PersonalInfo {
     private String cvURL;
     private String description;
     private String phoneNumber;
+    private Another another;
 
 
 }
