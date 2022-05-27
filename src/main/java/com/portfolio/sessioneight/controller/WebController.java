@@ -31,18 +31,18 @@ public class WebController {
         personalInfo.setPhoneNumber("9729877383");
         personalInfo.setCvURL("https://drive.google.com/file/d/1yfxvFaETTGexFePvULQtopgQxSisrdBe/view?usp=sharing");
 
-        ArrayList<PorfolioService> services = new ArrayList<>();
-        services.add(new PorfolioService("Web App Development", "Create web application using spring boot", ""));
-        services.add(new PorfolioService("Mobile App Development", "Create mobil application using java", ""));
-        services.add(new PorfolioService("Digital Business Development", "Create Web based business", ""));
-        services.add(new PorfolioService("Website Integrations", "Design custom program for business sites", ""));
+        ArrayList<PortfolioService> services = new ArrayList<>();
+        services.add(new PortfolioService("Web App Development", "Create web application using spring boot", ""));
+        services.add(new PortfolioService("Mobile App Development", "Create mobil application using java", ""));
+        services.add(new PortfolioService("Digital Business Development", "Create Web based business", ""));
+        services.add(new PortfolioService("Website Integrations", "Design custom program for business sites", ""));
 
         Collections.sort(services);
 
         ArrayList<MyEducation> myEducations = new ArrayList<>();
         myEducations.add(new MyEducation("2005-2015", "Computer Science Engineer", "Interamerican University", "Bachelor in hardware and software Sciences"));
         myEducations.add(new MyEducation("2015-2018", "Network Analyst", "Interamerican University", "Certification in Network programming"));
-        myEducations.add(new MyEducation("2019-2022", "Java Develeper", "Vastika University", "Trainning in Java programming language and web software"));
+        myEducations.add(new MyEducation("2019-2022", "Java Developer", "Vastika University", "Trainning in Java programming language and web software"));
 
         ArrayList<MyExperience> myExperiences = new ArrayList<>();
         myExperiences.add(new MyExperience("2012-2015", "IT Technician", "Pueblo Inc.", "Data Center maintanance"));
