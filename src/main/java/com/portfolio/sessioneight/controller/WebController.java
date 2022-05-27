@@ -31,11 +31,11 @@ public class WebController {
         personalInfo.setPhoneNumber("9729877383");
         personalInfo.setCvURL("https://drive.google.com/file/d/1yfxvFaETTGexFePvULQtopgQxSisrdBe/view?usp=sharing");
 
-        ArrayList<PorfolioService> services = new ArrayList<>();
-        services.add(new PorfolioService("Web App Development", "Create web application using spring boot", ""));
-        services.add(new PorfolioService("Mobile App Development", "Create mobil application using java", ""));
-        services.add(new PorfolioService("Digital Business Development", "Create Web based business", ""));
-        services.add(new PorfolioService("Website Integrations", "Design custom program for business sites", ""));
+        ArrayList<PortfolioService> services = new ArrayList<>();
+        services.add(new PortfolioService("Web App Development", "Create web application using spring boot", ""));
+        services.add(new PortfolioService("Mobile App Development", "Create mobil application using java", ""));
+        services.add(new PortfolioService("Digital Business Development", "Create Web based business", ""));
+        services.add(new PortfolioService("Website Integrations", "Design custom program for business sites", ""));
 
         Collections.sort(services);
 
